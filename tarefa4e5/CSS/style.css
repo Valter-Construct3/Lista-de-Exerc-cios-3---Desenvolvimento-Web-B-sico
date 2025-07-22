@@ -1,0 +1,53 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header */
+header {
+  background-color: #007acc;
+  color: white;
+  padding: 20px;
+  margin: 10px;
+  border: 2px solid #005f99;
+}
+
+/* Main */
+main {
+  background-color: #f0f0f0;
+  color: #333;
+  padding: 20px;
+  margin: 10px;
+  border: 2px dashed #999;
+}
+
+/* Footer */
+footer {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  margin: 10px;
+  border: 2px solid #222;
+}
+
+/* ===== NOVOS SELETORES ===== */
+
+/* 1. Estiliza todos os <h2> */
+h2 {
+  font-size: 1.5em;
+  text-decoration: underline;
+}
+
+/* 2. Classe .destaque */
+.destaque {
+  font-style: italic;
+  background-color: #fff8dc; /* cor clara tipo bege */
+}
+
+/* 3. ID #importante */
+#importante {
+  border-top: 5px solid red;
+  padding-top: 10px;
+  margin-top: 15px;
+}
